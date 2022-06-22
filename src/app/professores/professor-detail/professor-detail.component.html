@@ -1,0 +1,20 @@
+<div *ngIf="professor" class="mt-4">
+  <h3>{{professor.nome}}</h3>
+
+  <div class="container">
+    <label class="form-label" for="professor-nome">Nome: </label>
+    <input id="professor-nome" class="form-control" [(ngModel)]="professor.nome" placeholder="nome">
+
+    <label class="form-label" for="professor-curso">Curso: </label>
+    <input id="professor-curso" class="form-control" [(ngModel)]="professor.curso" placeholder="curso">
+    
+    <label class="form-label" for="professor-matricula">Matrícula: </label>
+    <input id="professor-matricula" class="form-control" [(ngModel)]="professor.matricula" placeholder="Matricula">
+
+    <div class="d-flex gap-2 mt-4">
+      <button class="btn btn-success" (click)="save(professor)">Salvar</button>
+      <button class="btn btn-warning" (click)="edit(professor)">Editar</button>
+      <button class="btn btn-danger" (click)="remove(professor.id)">Deletar</button>
+    </div>
+  </div>
+</div>

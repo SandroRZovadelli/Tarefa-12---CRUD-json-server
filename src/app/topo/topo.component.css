@@ -1,0 +1,15 @@
+.container-fluid {
+  gap: 2rem;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.badge {
+  font-size: 1rem;
+}
+
+.active {
+  font-weight: 600;
+}

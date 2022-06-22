@@ -1,0 +1,126 @@
+{
+  "estudantes": [
+    {
+      "id": 1,
+      "nome": "Sandro",
+      "curso": "ads",
+      "matricula": 199,
+      "nota": 8,
+      "materia": "web",
+      "semestre": 3
+    },
+    {
+      "id": 2,
+      "nome": "Rogério",
+      "curso": "ads",
+      "matricula": 201,
+      "nota": 10,
+      "materia": "web",
+      "semestre": 3
+    },
+    {
+      "id": 4,
+      "nome": "Andre",
+      "curso": "ads",
+      "matricula": 189,
+      "nota": 9,
+      "materia": "Algoritimo",
+      "semestre": 1
+    },
+    {
+      "id": 5,
+      "nome": "Kyran",
+      "curso": "ads",
+      "matricula": 300,
+      "nota": 8,
+      "materia": "PLA",
+      "semestre": 3
+    },
+    {
+      "id": 6,
+      "nome": "Alessandro",
+      "curso": "ads",
+      "matricula": 403,
+      "nota": 8,
+      "materia": "S.O",
+      "semestre": 3
+    },
+    {
+      "id": 7,
+      "nome": "Jessica",
+      "curso": "ads",
+      "matricula": 899,
+      "nota": 7,
+      "materia": "Banco de dados",
+      "semestre": 2
+    },
+    {
+      "id": 8,
+      "nome": "Fábio",
+      "curso": "ADS",
+      "matricula": "2424",
+      "nota": 6,
+      "materia": "WEB",
+      "semestre": 3
+    },
+    {
+      "id": 9,
+      "nome": "Rafael",
+      "curso": "ads",
+      "matricula": 187,
+      "nota": 8,
+      "materia": "web",
+      "semestre": 3
+    }
+  ],
+  "professores": [
+    {
+      "id": 1,
+      "nome": "Pedro",
+      "curso": "ads",
+      "matricula": 563
+    },
+    {
+      "id": 2,
+      "nome": "Jorge",
+      "curso": "ads",
+      "matricula": 221
+    },
+    {
+      "id": 4,
+      "nome": "Marquinhos",
+      "curso": "ads",
+      "matricula": 171
+    },
+    {
+      "id": 5,
+      "nome": "Maria",
+      "curso": "ads",
+      "matricula": 300
+    },
+    {
+      "id": 6,
+      "nome": "Bruna",
+      "curso": "ads",
+      "matricula": 438
+    },
+    {
+      "id": 7,
+      "nome": "Thiago",
+      "curso": "ads",
+      "matricula": 816
+    },
+    {
+      "id": 8,
+      "nome": "Vitor",
+      "curso": "ads",
+      "matricula": 219
+    },
+    {
+      "id": 9,
+      "nome": "Rafaela",
+      "curso": "ads",
+      "matricula": 138
+    }
+  ]
+}

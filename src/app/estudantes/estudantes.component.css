@@ -1,0 +1,11 @@
+.container {
+  max-width: 30rem !important;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  font-weight: 600;
+}

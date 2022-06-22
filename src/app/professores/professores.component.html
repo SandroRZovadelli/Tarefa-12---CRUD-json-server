@@ -1,0 +1,16 @@
+<div class="container my-4">
+  <div class="d-flex gap-5">
+    <h3>Dados Professores</h3>
+    <button class="btn btn-success" (click)="onSelect(novoProfessor)">Cadastrar Professor</button>
+  </div>
+
+  <ul class="list-group mt-3">
+    <li class="list-group-item" *ngFor="let professor of professores">
+      <div [class.selected]="professor === selectedProfessor" (click)="onSelect(professor)">     
+        <span class="badge bg-success">{{professor.id}}</span> {{professor.nome}}
+      </div>
+    </li>
+  </ul>
+  
+  <app-professor-detail [professor]="selectedProfessor"></app-professor-detail>
+</div>

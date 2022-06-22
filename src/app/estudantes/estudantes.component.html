@@ -1,0 +1,16 @@
+<div class="container my-4">
+  <div class="d-flex gap-5">
+    <h3>Dados Estudantes</h3>
+    <button class="btn btn-primary" (click)="onSelect(novoEstudante)">Cadastrar Estudante</button>
+  </div>
+
+  <ul class="list-group mt-3">
+    <li class="list-group-item" *ngFor="let estudante of estudantes">
+      <div [class.selected]="estudante === selectedEstudante" (click)="onSelect(estudante)">     
+        <span class="badge bg-primary">{{estudante.id}}</span> {{estudante.nome}}
+      </div>
+    </li>
+  </ul>
+  
+  <app-estudante-detail [estudante]="selectedEstudante"></app-estudante-detail>
+</div>
